@@ -2,7 +2,7 @@
 
 This work has been published in [Rushton et al. (2016)](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R "Disc-jet quenching of the galactic black hole Swift J1753.5-0127") and [Rushton et al. (2010)](https://ui.adsabs.harvard.edu/abs/2010A%26A...524A..29R/abstract)
 
-The data files contain:
+The data file(s) contain:
 
 
 # Radio on GRS1915+105 by the Ryle Telescope (RT)
