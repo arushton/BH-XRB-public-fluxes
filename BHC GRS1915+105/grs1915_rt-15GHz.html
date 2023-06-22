@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Load the Plotly.js library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <!-- The div where the graph will be placed -->
+    <div id="myDiv"></div>
+    <script>
+      // Fetch the JSON data file
+      fetch('https://your-data-url/grs1915_rt-15GHz.json')
+        .then(res => res.json())
+        .then(data => {
+          // Prepare data for the scatter plot
+          var trace1 = {
+            x: data.map(row => row['MJD']),
+            y: data.map(row => row['Flux']),
+            mode: 'markers',
+            type: 'scatter',
+            marker: { size: 3 }
+          };
+
+          // Combine all traces
+          var data = [trace1];
+
+          // Prepare layout settings
+          var layout = {
+            title: {
+              text:'Radio Flux Densities Over Time',
+              y: 0.9,
+              yanchor: 'top'
+            },
+            xaxis: {
+              title: {
+                text: 'Modified Julian Date (MJD)',
+              },
+              // Display vertical lines for each year
+              dtick: 365.25,
+              tick0: 50083,  // the MJD for Jan 1, 1996
+            },
+            yaxis: {
+              title: {
+                text: 'Flux Density (Jy)',
+              },
+            },
+          };
+
+          // Create the plot
+          Plotly.newPlot('myDiv', data, layout);
+        })
+        .catch(err => console.log(err));
+    </script>
+  </body>
+</html>
