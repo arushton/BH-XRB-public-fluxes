@@ -9,13 +9,13 @@ The data file(s) contain:
 
 * [GRS1915+105 RT 15 GHz data](https://github.com/arushton/BH-XRB-public-fluxes/blob/e88cd046924a50894283967446b3e6ecdb9197a1/BHC%20GRS1915%2B105/grs1915_rt-15GHz.dat)
 
-
+![alt text]https://github.com/arushton/BH-XRB-public-fluxes/blob/382956d93eab154c08bc1b8b023d980d4443f6d0/BHC%20GRS1915%2B105/grs1915_rt-15GHz.png)
 
 # Radio/X-ray data on J1753.5-0127
 
 * [J1753-radio-fluxes.cvs - Radio data](https://github.com/arushton/BH-XRB-public-fluxes/blob/e88cd046924a50894283967446b3e6ecdb9197a1/BHC%20J1753/J1753-radio-fluxes.csv)
 
-![alt text](https://github.com/arushton/BH-XRB-public-fluxes/blob/a43d714e2aaab064762e8e403bb7920d325f02dc/BHC%20GRS1915%2B105/grs1915_rt-15GHz.png)
+![alt text](https://github.com/arushton/BH-XRB-public-fluxes/blob/382956d93eab154c08bc1b8b023d980d4443f6d0/BHC%20J1753/J1753-radio-fluxes.png)
 
 * SWIFTJ1753.5-0127.lc.txt - Swift/BAT data
 * XRT_J1753fits_FTEST.txt - Swift/XRT with spectrum fitting and extracted
