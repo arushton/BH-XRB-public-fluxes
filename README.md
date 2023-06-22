@@ -1,8 +1,17 @@
-# Radio/X-ray data on J1753.5-0127
+# This repo contains observational data related to two Black Holes: GRS1915+105 and SWIFTJ1753.5
 
-This is the radio/X-ray data published in [Rushton et al. 2016](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R "Disc-jet quenching of the galactic black hole Swift J1753.5-0127")
+This work has been published in [Rushton et al. (2016)](http://adsabs.harvard.edu/abs/2016MNRAS.463..628R "Disc-jet quenching of the galactic black hole Swift J1753.5-0127") and [Rushton et al. (2010)](https://ui.adsabs.harvard.edu/abs/2010A%26A...524A..29R/abstract)
 
 The data files contain:
+
+
+# Radio on GRS1915+105 by the Ryle Telescope (RT)
+
+* GRS1915+105 RT 15 GHz data
+
+
+# Radio/X-ray data on J1753.5-0127
+
 
 * SWIFTJ1753.5-0127.lc.txt - Swift/BAT data
 * XRT_J1753fits_FTEST.txt - Swift/XRT with spectrum fitting and extracted
