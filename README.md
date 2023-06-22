@@ -13,8 +13,7 @@ The data files contain:
 
 # Radio/X-ray data on J1753.5-0127
 
-* [J1753-radio-fluxes.cvs - Radio data](https://github.com/arushton/BH-XRB-public-fluxes/blob/
-e88cd046924a50894283967446b3e6ecdb9197a1/BHC%20J1753/J1753-radio-fluxes.csv)
+* [J1753-radio-fluxes.cvs - Radio data](https://github.com/arushton/BH-XRB-public-fluxes/blob/e88cd046924a50894283967446b3e6ecdb9197a1/BHC%20J1753/J1753-radio-fluxes.csv)
 
 ![alt text](https://github.com/arushton/BH-XRB-public-fluxes/blob/a43d714e2aaab064762e8e403bb7920d325f02dc/BHC%20GRS1915%2B105/grs1915_rt-15GHz.png)
 
